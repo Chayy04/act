@@ -24,9 +24,22 @@ body{
     border-radius: 50%;
 }
 
-a{
+.fb_link{
+    border:solid white 1px;
     color: cornflowerblue;
     text-decoration: none;
+    font-size: larger;
+}
+
+.fb_link:hover{
+    border: solid cornflowerblue 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 30px;
 }
 
 .facebook_icon{
